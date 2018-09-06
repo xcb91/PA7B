@@ -8,7 +8,7 @@ public class ComputeChange{
 System.out.println("Enter an amount in double:");
 double amount = input.nextDouble();
 
-int cents = (int)amount * 100;
+int cents = (int)(amount * 100);
             //convrtir (int)amount
             //encontrar numero de dolar en centavos
 int numberOfDollars = cents / 100;
