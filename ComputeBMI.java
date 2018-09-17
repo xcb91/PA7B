@@ -15,6 +15,29 @@ public class ComputeBMI {
 double weightInKilograms = weight * KILOGRAMS_PER_POUND;
 double heightInMeters = height * METERS_PER_INCH;
 
+//double bmi = weightInKilograms / (heightInMeters * heightInMeters);//
+double bmi = weightInKilograms / Math.pow(heightInMeters , 2);
+
+System.out.println("Youru IMC is "+ bmi);
+
+if (bmi < 16){
+  System.out.println("Your are seriusly underweight");
+}
+else if(bmi < 18)
+  System.out.println("Your are underweight");
+
+  else if(bmi < 24)
+    System.out.println("Your are normal rweight");
+
+    else if(bmi < 29)
+      System.out.println("Your are overweight");
+ else if(bmi < 35)
+        System.out.println("Your are seriosly overweight");
+else
+          System.out.println("Your are overweight");
+
+
+
 
 
 

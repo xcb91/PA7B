@@ -11,7 +11,5 @@
   System.out.println("It´s an odd number ");
 }
 
-
-
   }
 }
