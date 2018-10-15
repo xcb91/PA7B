@@ -16,7 +16,7 @@ public void bark(){
   System.out.println("wauff wauff");
 }
 public void layDown(String datos){
-  System.out.println(datos + "estoy recostado");
+  System.out.println(datos + " estoy recostado");
 }
 public void eat(){
   System.out.println("I am eating");
